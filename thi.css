@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(232, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.main{
+    width: 700px;
+    height:700px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-img{
+    position: relative;
+}
+i{
+    position:absolute;
+    font-size:30px;
+    top:8px;
+    left: 10px;
+    color:rgb(188, 185, 185);
+}
+img{
+    display: block;
+    width:300px;
+    height: 220px;
+    object-fit: cover;
+}
+.card1{
+    width:300px;
+    height:290px;
+    margin-bottom: -40px;
+    background-color: #fff;
+}
+.content{
+    padding:30px 25px;
+}
+.card-word{
+    font-size:25px;
+    font-weight: 700;
+}
+input{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(152, 150, 150);
+    width:60px;
+}
+.card-wordnho{
+    margin-top: 20px;
+    opacity: 0.6;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-footer{
+    width:300px;
+    height:40px;
+    background-color: #F7F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.card-footer>p{
+    font-size:12px;
+    letter-spacing: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-footer:hover{
+    background-color:#000;
+    color: #fff;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content:space-between
+}
+.card-footer1{
+    width:149px;
+    height:40px;
+    background-color: #F7F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size:13px;
+    letter-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-footer1:hover{
+    background-color:#000;
+    color: #fff;
+    cursor: pointer;
+}
+.card-footer2{
+    width:149px;
+    height:40px;
+    background-color: #F7F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size:13px;
+    letter-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-footer2:hover{
+    background-color:#000;
+    color: #fff;
+    cursor: pointer;
+}
